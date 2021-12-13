@@ -1,0 +1,138 @@
+
+
+body{
+    font-family:'Poppins'; sans-serif;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: 0;
+    -webkit-font-smoothing:antialiased
+}
+header{
+    height:470px;
+    background-image: url(beauback.jpeg);
+    background-size: cover;
+    background-size: 100% 460px; 
+    background-color: black;
+    clip-path: polygon( 0 0, 100% 0, 100% 100%, 80% 90%,  0 100%)
+}
+.container{
+    max-width: 1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+ .left a{
+    color:white;
+    text-decoration: none;
+   margin-right:2rem ;
+   text-transform:uppercase;
+}
+.right a{
+    color:white;
+    text-decoration: none;
+   text-transform:uppercase;
+}
+ .left a:hover{
+    color:rgb(246 219 229);
+    transition: all .3s ease;
+}
+
+header nav{
+    padding:2rem 0;
+}
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.box{
+    padding: 0.8rem 3rem;
+    font-size:1rem;
+    font-weight:600;
+    border:2px solid transparent; 
+    cursor:pointer;
+    background:rgb(207 122 153);
+    color:black;
+    text-transform:uppercase;
+    transition:all .3sec ease;
+}
+.box:hover{
+    background:transparent ;
+    border-color: rgb(207 122 153);
+    color: rgb(207 122 153)
+}
+.profile{
+    color:aliceblue
+}
+.card{ background-color:#170529; 
+    width:99%; height:280px;
+    text-align:center; 
+   margin: 0.5%
+}
+#location{
+    background-color:#170529;
+    width:99%; 
+    color:white;
+    text-align:center;
+    margin:0.5%
+}
+#about{
+    color:rgb(0, 0, 0);
+     font-size:18px; 
+     font-weight:semibold;
+      background-color: rgb(246 219 229);
+      margin-left:20px; margin-top: 15px; 
+      height:110px;
+      width:70%
+}
+.icon{ 
+    height:33px;
+    width: 33px
+}
+.tor{ 
+    height:200x;
+    width:200px
+}
+.happy{
+    margin-left: 20px
+}
+#style{
+    font-size:50px;
+     color:rgb(246 219 229)); 
+     margin-left:27rem; 
+     margin-top:4rem;
+     color: white
+}
+#connect{
+    font-size:10px;
+    color:rgb(246 219 229)); 
+    margin-left:61.5rem; 
+    margin-top:-1rem;
+    color: white
+}
+#social{
+    
+    margin-left:979px;
+     font-size:10px
+}
+.photo{
+    position: absolute;
+    margin-top: -3%;
+    
+}
+#footerr{
+    color: black;
+    text-decoration: none;
+    
+
+}
+#footerr >h2 >a{
+    color:black !important;
+    text-decoration: none !important;
+    font-size: 10 !important;
+}
